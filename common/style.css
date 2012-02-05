@@ -1,0 +1,441 @@
+@charset "utf-8";
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color:#333;
+	font-size:12px;
+	line-height: 120%;
+	text-align:left;
+	margin:0;
+	border:0;
+	padding:0;
+}
+/*-------TEXT's_LINK-------*/
+
+a:link {
+/*	text-decoration: underline;*/
+	color:#009;
+}
+a:visited {
+	text-decoration: underline;
+	color:#009;
+}
+a:hover {
+	text-decoration: underline;
+	color:#f41195;
+}
+a:active {
+	text-decoration: underline;
+	color: #009;
+}
+.more {
+	width: 280px;
+	height:20px;
+}
+.more a{
+	background-position:left;
+	background-repeat: no-repeat;
+	text-decoration: none;
+
+}
+.more a:link {
+	color:#FFF;
+	height:20px;
+	padding:5px 5px 5px 25px;
+	line-height:20px;
+	background-image:url(./b_more_3.png);
+}
+.more a:visited {
+color:#FFF;
+height:20px;
+background-image:url(./b_more_3.png);
+padding:5px 5px 5px 25px;
+padding-left: 25px;
+} 
+.more a:hover {
+	color:#f1008f;
+	background-image:url(./b_more_1.png);
+}
+.more a:active {
+	background-image:url(./b_more_3.png);
+	padding-left: 25px;
+}
+/*-------TEXT HEADINGS-------*/
+h1 {
+font-size:20px;
+	color: #039;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	line-height: 100%;/*letter-spacing: 2px; */
+	margin-top: 20px;
+}
+h2 {
+	font-size:16px;
+	color: #444;/*	letter-spacing: 2px; */
+	margin-top: 0px;
+}
+h3 {
+	font-size:14px;
+	color: #333;
+	padding-top: 0px;/*	letter-spacing: 2px; */
+	margin-bottom: 0px;
+}
+ul {
+	padding-left: 15px;
+	margin-top: 5px;
+}
+ol {
+	padding-left: 15px;
+	margin-top: 5px;
+}
+
+.Qopcja	   {	font-size: 10pt;	color: #009;	font-weight:normal;}
+.Qpole       {	font-size: 10pt;	color: #09C;	font-weight:normal;}
+.Qprogram {	font-size: 10pt;	color: #009;	font-weight:bold;}
+
+.Qwyrozn {	font-weight:bold;}
+
+.Qprzepis {	font-weight:normal;	font-size: 8pt;}
+
+.Qprzepis li {    margin-top: 6px;
+	list-style-type: square;
+}
+
+
+img {
+	padding-right: 5px;
+	/*padding-bottom: 4px; */
+}
+
+/*-------TEXT_COLORS-------*/
+.blue {	color:#1792C6;
+	text-align: left;
+}
+.red {	color:#ce232c;}
+.green {	color:#62A023;}
+.violet {	color: #713f98;}
+.dark_blue {	color: #0f2b5d;}
+.grey {	color: #6d6d6d;}
+.magenta {	color:#d5017f;}
+.orange {color:#e88641;}
+/*-------COLOR STRIPES-------*/
+div.stripe_green {
+	height:6px;
+	width:auto;
+	background-color: #9C6;
+	background-image:url(./stripe_green.png);
+	background-repeat:repeat-x;
+}
+div.stripe_blue {
+	height:6px;
+	width:auto;
+	background-color: #6CF;
+	background-image:url(./stripe_blue.png);
+	background-repeat:repeat-x;
+}
+div.stripe_red {
+	height:6px;
+	width:auto;
+	background-color: #CE232C;
+	background-image:url(./stripe_red.png);
+	background-repeat:repeat-x;
+}
+div.stripe_violet {
+	height:6px;
+	width:auto;
+	background-color: #8256A1;
+	background-image:url(./stripe_violet.png);
+	background-repeat:repeat-x;
+}
+div.stripe_grey {
+	height:6px;
+	width:auto;
+	background-color: #999;
+	background-image:url(./stripe_grey.png);
+	background-repeat:repeat-x;
+}
+div.stripe_magenta {
+	height:6px;
+	width:auto;
+	background-color: #fff;
+	background-image:url(./stripe_magenta.png);
+	background-repeat:repeat-x;
+}
+div.stripe_orange {
+	height:6px;
+	width:auto;
+	background-color: #fff;
+	background-image:url(./stripe_orange.png);
+	background-repeat:repeat-x;
+}
+.icon {
+    float: left;
+    height: 60px;
+    width: 60px;
+	border:0;
+}
+
+.screen {
+	width:130px;
+	float:left;
+	margin: 0 6px 6px 0;
+}
+/*-------HEAD-------*/
+#head {
+	width: 100%;
+	height: auto;
+	background-color:#B6B6B6;
+	background-image: url(./head_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: top center;
+}
+#head h1{display:none;}
+#head .center {
+	position: relative;
+	width: 980px;
+	height: 75px;
+	margin: 0 auto;
+	
+}
+
+div.logo {
+	margin: 0 auto auto 0;
+	width:270px;
+	height:70px;
+	
+}
+ul#menu_top {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	float:left;
+	margin:0;
+	width: auto;
+	list-style:none;
+	position:absolute;
+	z-index:200;
+	top:0px;
+	right:0px;
+}
+ul#menu_top li {
+	float:left;
+	margin:0px;
+}
+ul#menu_top li a, ul#menu-header li span {
+	display:block;
+	text-decoration:none;
+	height:65px;
+	line-height:75px;
+	padding-left:20px;
+	padding-right:15px;
+	color:#036;
+	position:relative;
+}
+ul#menu_top li {
+	margin-right:3px;
+	padding-right:5px
+}
+ul#menu_top li:hover a {
+	color:#e88641;
+	background-image: url(./stripe_orange.png);
+	background-repeat:repeat-x;
+	background-position:bottom;
+}
+ul#menu_top li:hover {
+}
+/*-------BANNER-------*/
+#banner {
+	width: 100%;
+	height: 300px;
+	background-image:url(./banner_bg.jpg);
+	background-position:top;
+	background-repeat:repeat-x;
+	background-color:#FFF;
+}
+#banner .center {
+	position: relative;
+	width: 980px;
+	height: 260px;
+	margin: 0 auto;
+}
+	
+#banner2 {
+	width: 100%;
+	height: 130px;
+	background-image:url(./banner_bg.jpg);
+	background-position:top;
+	background-repeat:repeat-x;
+	background-color:#FFF;
+}
+#banner2 .center {
+	position: relative;
+	width: 980px;
+	height: 130px;
+	margin: 0 auto;	
+}
+
+
+/*-------CONTENT-------*/
+.noshow{
+display:none;}
+
+.column_title a{text-decoration:none;}
+.column_title{
+ text-decoration:none;
+ -moz-transition: all 0.6s ease-out 0s;
+ -webkit-transition: all 0.6s ease-out 0s;
+}
+.column_1_3:hover .column_title{
+  margin-left:20px;
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+}
+.column_content{
+text-decoration:none;
+ }
+#content {
+	width: 100%;
+	background-color:#fff;
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+#content2 {
+	width: 100%;
+	background-color:#fff;
+	background-image:url(./banner_bg.jpg);
+	background-position:top;
+	background-repeat:repeat-x;
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+div.content_center {
+	width:980px;
+	height: auto;
+	margin:0 auto;
+	position:relative;
+}
+div.column_content {
+	width:720px;
+	height: auto;
+	float:left;
+	position:relative;
+	top:20px;
+	background-image: url(./line.png);
+	background-repeat: repeat-y;
+	background-position: right;
+	z-index:3;
+}
+div .column_1 {
+	width:675px;
+	height: auto;
+	float:left;
+	position:relative;
+	z-index:3;
+	padding: 0 25px 25px 20px;
+}
+.column_1_3:hover{
+ /*-moz-transform: scale(1.1);*/
+ margin-top:-5px;
+ background-color:#eFeFeF;
+  box-shadow:  -2px 2px 6px #beccdd, 2px 2px 6px #aebccd;
+
+}
+div .column_1_3 {
+   -moz-transition: all 0.3s ease-out 0s;
+   -webkit-transition: all 0.3s ease-out 0s;
+	width:205px;
+	height: auto;
+	float:left;
+	position:relative;
+	z-index:3;
+	padding: 0 25px 20px 10px;
+}
+div .column_1_2 {
+	width:315px;
+	height: auto;
+	float:left;
+	position:relative;
+	z-index:3;
+	padding: 0 25px 30px 20px;
+}
+div.column_right {
+	width:225px;
+	height: auto;
+	float:left;
+	padding: 0px 10px 60px 25px;
+	position:relative;
+	top:20px;
+	z-index:3;
+	color: #000;
+}
+
+/*-------FOOTER-------*/
+#footer {
+	width: 100%;
+	overflow: hidden;
+	background-color:#17272f;
+	background-image:url(./dot_magenta.png);
+	background-position:top;
+	background-repeat:repeat-x;
+	position: relative;
+}
+#footer .center {
+	width:980px;
+	height: auto;
+	margin:auto;
+	padding-left: 20px;
+	position:relative;
+}
+#footer .menu {
+	width:165px;
+	height:70px;
+	font-size:12px;
+	color:#e88641;
+	height: auto;
+	float:left;
+	position:relative;
+	margin: 20px 0 20px 10px;
+}
+#footer a:link {
+	text-decoration: none;
+	color:#FFF;
+	line-height: 150%;
+}
+#footer a:visited {
+	text-decoration: none;
+	color:#FFF;
+}
+#footer a:hover {
+	text-decoration: none;
+	color:#09C;
+}
+#footer a:active {
+	text-decoration: none;
+	color: #3FF;
+}
+#footer .support {
+	width:200px;
+	height:auto;
+	color:#FFF;
+	float:right;
+	position:relative;
+	margin: 20px 0 20px 10px;
+	text-align: center;
+	font-size: 10px;
+	background-image: url(./line2.png);
+	background-position: left;
+	background-repeat: repeat-y;
+}
+#footer .support a:link {
+	text-decoration: none;
+	color:#CCC;
+}
+#footer .support a:visited {
+	text-decoration: none;
+	color:#999;
+}
+#footer .support a:hover {
+	text-decoration: none;
+	color:#09C;
+}
+#footer.support a:active {
+	text-decoration: none;
+	color: #999;
+}

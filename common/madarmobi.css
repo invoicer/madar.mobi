@@ -1,0 +1,110 @@
+
+
+.download {margin-left:0px; float:left;}
+.download div {background: url(images/pobierz.png) no-repeat;
+         width:122px; height:19px; display:block;
+         }
+.download p {padding: 2px 5px 0 0px; text-align: right; font:bold 11px "Verdana";}
+.download a {color: #444; text-decoration: none;}
+
+
+.opis_wersji {color: #444; text-decoration: none; font:normal 10px "Verdana";border-left:1px dotted #4B5BA2;
+              padding: 0px 0px 2px 6px; width:100%;}
+.opis_wersji a {font-size:11px; color: #0f3554; text-decoration: underline;}
+
+.opis_programu {margin-top:0px;}
+.opis_programu a {color: #444; text-decoration: none; border:0;}
+.opis_programu img {padding: 5px 6px 0 0px; float:left;color:transparent;}
+.opis_programu h1{color: #444; width:184px;
+                font-family:"Trebuchet MS","Bitstream Vera Sans",Helvetica,sans-serif;font-size:180.4%;
+                padding: 0px 0px 2px 0px; margin:0;}
+.opis_programu p {font-size:11px; margin-top:0;padding: 0px 0px 2px 0px;}
+
+
+.pob {height:auto; width:auto; display:block; margin: 12px 0 20px 0px; border-collapse: collapse;
+}
+.pob a {text-decoration:none;}
+.pob_l {background: url(../images/tlopobierz-le.png) no-repeat; width:16px;}
+.pob_p {background: url(../images/tlopobierz-pr.png) no-repeat; width:26px;}
+.pob_sr {background: url(../images/tlopobierz-sr.png) repeat-x; height:125px; width:190px; border:0;}
+
+.pobierz  { margin:0; font:normal 11px "Verdana"; padding: 0; border-spacing: 0;}
+.pobierz_l {width:auto; vertical-align: top;}
+.pobierz_p {width:330px; vertical-align: middle;}
+.pobierz_l {width:auto; vertical-align: top;}
+
+
+.szablon-tab { margin:0; width:10%; height:39; }
+.szablon-tab1 { background: url(images/ramka_tlo.gif); }
+
+/* Klawisz pobierz */
+.pob1 {
+	width:auto; 
+	display:block; 
+	margin: 12px 0 12px 0; 
+	border-collapse: collapse;
+}
+
+.pob_sr1 {
+	background: url(images/tlopobierz-sr.png) repeat-x;
+	height:125px; 
+	width:100px; 
+	border:0;
+}
+.opis_programu1 {
+	margin-top:0px;
+}
+
+.opis_programu1 p {
+	font-size:10px; 
+	margin-top:0; 
+	height:11px;
+}
+
+.opis_programu1 a {
+	color: #444; 
+	text-decoration: none;
+	
+	
+}
+
+.opis_programu1 img {padding: 5px 6px 0 0px; float:left;}
+
+.opis_programu1 div {
+	color: #444; 
+	width:245px;
+	font-size:200.4%;
+	padding: 0px 0px 2px 0px; margin:0;
+}
+
+.pobof div{
+line-height: 1.5;}
+.pobof h2{
+ color: #000099;
+ display:inline;line-height: 1.5;}
+
+.pobof h1{
+        text-shadow: 1px 1px 3px #1792B6;
+          font-size: 21px ;
+
+  }
+.pobof{
+
+    border: 3px solid rgba(255, 255, 255, 0.2);
+
+    background-clip: padding-box;
+    border-radius: 12px 12px 12px 12px;
+    background-size: 100% 100%;
+               box-shadow: 0 0 4px #4CCCCC;
+                 background-color: #9EEEFE;
+    background-image: -moz-linear-gradient(center top , #9EEEFE, #47C2F6);
+    background-image: -webkit-gradient(linear, left top , left bottom,  from(#9EEEFE), to(#47C2F6));
+
+    border-spacing: 0;
+    font: 12px "Verdana";
+    overflow: hidden;
+    padding: 20px 10px;
+    z-index: 2;
+
+  }
+
